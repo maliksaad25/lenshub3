@@ -1,0 +1,88 @@
+/* Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: #007BFF;
+    color: #ffffff;
+    padding: 20px 0;
+}
+header h1 {
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 10px;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+.section {
+    padding: 50px 0;
+    text-align: center;
+}
+.section h2 {
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+.section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.btn {
+    display: inline-block;
+    background: #007BFF;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.btn:hover {
+    background: #0056b3;
+}
+
+/* Footer */
+footer {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
